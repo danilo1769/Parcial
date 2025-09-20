@@ -1,4 +1,4 @@
-// Definimos la lógica para traer la información de la API
+
 const getInputValue = () => {
     const input = document.getElementById("pokemon_input");
     const nombre = input.value.toLowerCase().trim();
