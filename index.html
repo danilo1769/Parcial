@@ -3,25 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeria Pokemon</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <title>Galeria Pokemon</title>
+
 </head>
 <body>
 
   <h1 class="titulo">Galeria de Pokemones</h1>
 
   <div class="busqueda">
-    <h1> Busca a tu Pokemon</h1>
-    <input type="text" name="Nombre_Pokemon" id="Nombre_Pokemon" >
-    <button id="Buscar_Pokemon">Busca a tu Compañero</button>
+    <h1>Busca a tu Pokemon</h1>
+    <input type="text" id="pokemon_input" placeholder="Escribe un Pokémon">
+    <button onclick="getInputValue()">Buscar</button>
+    <div id="show-info"></div>
+
   </div>
 
-  <div class="galeria" id="galeria">
-   
-  </div>
-
-  <script src="script.js">
-
-  </script>
 </body>
 </html>
+
+
