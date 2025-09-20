@@ -18,7 +18,13 @@ body {
   padding: 20px;
 }
 
-.card {
+.busqueda{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carta {
   background: white;
   border-radius: 15px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
@@ -27,11 +33,11 @@ body {
   transition: transform 0.2s;
 }
 
-.card:hover {
+.carta:hover {
   transform: scale(1.05);
 }
 
-.card img {
+.carta img {
   width: 120px;
   height: 120px;
 }
