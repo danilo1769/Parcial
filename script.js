@@ -27,7 +27,7 @@ const getApiData = (pokemon) => {
             display_data(info);
         })
         .catch(error => {
-            document.getElementById("show-info").innerHTML = `<p>No se encontró el Pokémon 😢</p>`;
+            document.getElementById("show-info").innerHTML = `<p>No se encontró el Pokémon </p>`;
         });
 };
 
